@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=helloworld %u
-Icon=PrePostCondition.svg
+Icon=application-x-executable
 Terminal=false
 Name=helloworld
 GenericName=helloworld
