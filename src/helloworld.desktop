@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=helloworld %u
+Icon=some-icon
+Terminal=false
+Name=helloworld
+GenericName=helloworld
+Comment=Hello World
+Categories=Qt;KDE;
