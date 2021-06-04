@@ -1,6 +1,8 @@
 #include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QtQml>
+#include <QSurfaceFormat>
+#include <QQmlContext>
 #include <QUrl>
 #include <KLocalizedContext>
 #include <KLocalizedString>
