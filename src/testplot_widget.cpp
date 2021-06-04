@@ -32,7 +32,7 @@ TestPlot::TestPlot(QWidget *p)
     PlotSelector->addItem(QStringLiteral("Points, lines and bars with labels"));
 
     plot = new KPlotWidget(w);
-    plot->setMinimumSize(400, 400);
+    plot->setMinimumSize(720, 360);
     plot->setAntialiasing(true);
     vlay->addWidget(PlotSelector);
     vlay->addWidget(plot);
