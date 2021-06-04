@@ -1,5 +1,6 @@
-add_executable(helloworld main.cpp resources.qrc)
-target_link_libraries(helloworld Qt5::Core Qt5::Quick Qt5::Qml Qt5::Gui Qt5::QuickControls2 Qt5::Widgets KF5::Kirigami2 KF5::I18n)
+add_executable(helloworld)
+target_sources(helloworld PRIVATE testplot_widget.cpp testplot_main.cpp)
+target_link_libraries(helloworld Qt5::Widgets KF5::Plotting)
 
 install(TARGETS helloworld RUNTIME DESTINATION /usr/bin)
 install(PROGRAMS helloworld.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
