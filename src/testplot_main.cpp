@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     TestPlot *tp = new TestPlot(nullptr);
-    tp->show();
+    tp->showMaximized();
     return a.exec();
 }
